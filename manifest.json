@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "0.0.1",
+  "author": "YUKI \"Piro\" Hiroshi",
+  "description": "__MSG_extensionDescription__",
+  "permissions": [
+    "clipboardWrite",
+    "menus",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "/resources/Copy.svg#default",
+    "20": "/resources/Copy.svg#default",
+    "24": "/resources/Copy.svg#default",
+    "32": "/resources/Copy.svg#default"
+  },
+  "background": {
+    "page": "background/background.html"
+  },
+  "options_ui": {
+    "page": "options/options.html"
+  },
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-sanitized-link@piro.sakura.ne.jp",
+      "strict_min_version": "115.0"
+    }
+  }
+}
